@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom classes */
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent;
+  }
+}
+  body {
+    overflow-x: hidden;
+  }
