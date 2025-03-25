@@ -8,12 +8,12 @@ export function DataProvider({ children }) {
   const [customers, setCustomers] = useState([]);
   const [testimonials, setTestimonials] = useState([]);
   const [settings, setSettings] = useState({
-    siteName: 'TestCar',
-    phone: '212661729129',
+    siteName: 'BOTENCAR',
+    phone: '212661729329',
     contactEmail: 'Botencar@gmail.com',
     instagram: 'https://www.instagram.com/steboten?igsh=YzljYTk1ODg3Zg==',
     facebook: 'https://www.facebook.com/share/1FKQABRKAm/',
-    adress: '18Rue Moulay Hicham, Safi',
+    adress: '18 Rue Moulay Hicham, Safi Maroc',
     gps: '',
     password: '',
     maintenanceMode: false,
@@ -49,7 +49,7 @@ export function DataProvider({ children }) {
       setTestimonials(testimonialsData);
       setSettings({
         siteName: settingsData.site_name || 'BOTENCar',
-        phone: settingsData.phone || '212661729129',
+        phone: settingsData.phone || '212661729329',
         contactEmail: settingsData.contact_email || 'Botencar@gmail.com',
         instagram: settingsData.instagram || 'https://www.instagram.com/steboten?igsh=YzljYTk1ODg3Zg==',
         facebook: settingsData.facebook || 'https://www.facebook.com/share/1FKQABRKAm/',
@@ -247,13 +247,13 @@ export function DataProvider({ children }) {
       }
       const updatedSettings = await response.json();
       setSettings({
-        siteName: updatedSettings.site_name || 'YLH CAR',
-        phone: updatedSettings.phone || '212661918917',
-        contactEmail: updatedSettings.contact_email || 'reservation@ylhcar.ma',
-        instagram: updatedSettings.instagram || 'https://instagram.com/ylhcarofficiel',
-        facebook: updatedSettings.facebook || 'https://www.facebook.com/YLHCAR',
-        adress: updatedSettings.adress || 'Bouchouk résidence annakhil 2, Salé',
-        gps: updatedSettings.gps || 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.566074414049!2d-6.785799300000001!3d34.0806362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda769b090183891%3A0x39e21bb9b22eafd5!2sYLH%20CAR!5e0!3m2!1sfr!2sma!4v1741453156087!5m2!1sfr!2sma',
+        siteName: updatedSettings.site_name || 'BOTEN CAR',
+        phone: updatedSettings.phone || '212661938937',
+        contactEmail: updatedSettings.contact_email || 'Botencar@gmail.com',
+        instagram: updatedSettings.instagram || 'https://www.instagram.com/steboten?igsh=YzljYTk1ODg3Zg==',
+        facebook: updatedSettings.facebook || 'https://www.facebook.com/share/1FKQABRKAm/',
+        adress: updatedSettings.adress || '18 Rue Moulay Hicham, Safi Maroc',
+        gps: updatedSettings.gps || 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3371.842754533013!2d-9.22534!3d32.316078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzLCsDE4JzU3LjkiTiA5wrAxMyczMS4yIlc!5e0!3m2!1sfr!2sma!4v1742860428191!5m2!1sfr!2sma',
         password : updatedSettings.password || '',
         maintenanceMode: updatedSettings.maintenance_mode === 1,
       });

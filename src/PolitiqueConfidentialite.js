@@ -15,7 +15,7 @@ const PolitiqueConfidentialite = () => {
                 <ul className="list-none space-y-2">
                     <li className="flex items-center"><span className="w-40 font-medium">Nom de l'entreprise:</span>BOTEN CAR</li>
                     <li className="flex items-center"><span className="w-40 font-medium">Siège social:</span>18 Rue Moulay Hicham, Safi Maroc</li>
-                    <li className="flex items-center"><span className="w-40 font-medium">Téléphone:</span>+212661729129</li>
+                    <li className="flex items-center"><span className="w-40 font-medium">Téléphone:</span>+212661729329</li>
                     <li className="flex items-center"><span className="w-40 font-medium">Téléphone 2:</span>+212657081148</li>
                     <li className="flex items-center"><span className="w-40 font-medium">Email:</span>Botencar@gmail.com</li>
                     <li className="flex items-center"><span className="w-40 font-medium">Directeur de publication:</span>EL MAHDI HDIHEL</li>
@@ -147,7 +147,7 @@ const PolitiqueConfidentialite = () => {
                     <p className="mb-2 font-medium">Pour exercer ces droits, contactez-nous à:</p>
                     <ul className="list-none">
                         <li className="flex items-center mb-1"><span className="mr-2 text-[#FFC107]">✉️</span> Botencar@gmail.com</li>
-                        <li className="flex items-center"><span className="mr-2 text-[#FFC107]">📞</span> +212661729129</li>
+                        <li className="flex items-center"><span className="mr-2 text-[#FFC107]">📞</span> +212661729329</li>
                         <li className="flex items-center"><span className="mr-2 text-[#FFC107]">📞</span> +212657081148</li>
                     </ul>
                 </div>
@@ -186,7 +186,7 @@ const PolitiqueConfidentialite = () => {
                                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                                 </svg>
                             </div>
-                            <span>+212661729129</span>
+                            <span>+212661729329</span>
                         </div>
                     </div>
                 </div>
